@@ -1,0 +1,14 @@
+
+footer {
+  background-color: #000;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  flex-basis: 2vw;
+  padding: 20px 10px;
+}
