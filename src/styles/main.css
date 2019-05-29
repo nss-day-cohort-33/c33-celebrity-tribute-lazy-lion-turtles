@@ -84,7 +84,8 @@ nav {
 
 .active-page
 {
-  text-shadow: 0 0 1px #497e3f, 0 0 2px #6bbc5d;
+  color: white;
+  text-shadow: 0 0 3px #6bbc5d, 0 0 4px #6bbc5d, 0 0 5px #497e3f;
 }
 
 .icon-link:hover
@@ -131,7 +132,14 @@ nav img.matrix {
 
 /* blinking nav links https://html-online.com/articles/blinking-text-css-animation/*/
 .blinking:hover{
-  animation:blinkingText 2s infinite, blinkingBackground 2s infinite;
+  animation: blinkingText 2s infinite, blinkingBackground 2s infinite;
+}
+
+.active-page:hover
+{
+  animation: blinkingText 2s infinite, 
+  blinkingBackground 2s infinite,
+  activeShadow 2s infinite;
 }
 
 @keyframes blinkingBackground{
@@ -148,6 +156,14 @@ nav img.matrix {
   70%{    color: #497e3f; }
   75%{    color: #497e3f;  }
   100%{   color: #000000;    }
+}
+
+@keyframes activeShadow{
+  0%{     text-shadow: 0 0 3px #497e3f, 0 0 4px #497e3f, 0 0 5px #497e3f;    }
+  25%{    text-shadow: 0 0 3px #497e3f, 0 0 4px #497e3f, 0 0 5px #497e3f; } 
+  70%{    text-shadow: 0 0 0px #000000; }
+  75%{    text-shadow: 0 0 0px #000000;  }
+  100%{   text-shadow: 0 0 3px #497e3f, 0 0 4px #497e3f, 0 0 5px #497e3f;    }
 }
 
 /* glowing keanu icon  https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
