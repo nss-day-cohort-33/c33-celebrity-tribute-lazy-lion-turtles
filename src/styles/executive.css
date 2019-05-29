@@ -15,6 +15,7 @@ h1
     margin-right: auto;
     border-radius: 5px;
     width: 40%;
+<<<<<<< HEAD
     float: left;
 }
 
@@ -25,4 +26,7 @@ h1
 
 #face {
     height: 100vh;
+=======
+    float: left
+>>>>>>> master
 }

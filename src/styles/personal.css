@@ -1,4 +1,41 @@
-.keanu_personal {
-    width: 600px;
-    height: auto;
+
+.personal_img {
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+h1 {
+    color: #6bbc5d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 50px;
+}
+  
+  figcaption {
+    color: darkgrey;
+  }
+
+/* Family container */
+
+.family_h1 {
+  clear: both;
+}
+
+.family_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.family_container li {
+  justify-content: space-between
+}
+
+.family_img {
+  width: 200px;
 }

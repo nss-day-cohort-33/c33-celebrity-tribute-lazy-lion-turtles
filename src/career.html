@@ -4,14 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web&display=swap"
+      rel="stylesheet"
+    />   
+    <link rel="stylesheet" href= "styles/career.css">
     <title>Career</title>
   </head>
   <body>
+    <!-- The nav bar -->
+     <nav>
+      <img
+        class="matrix"
+        src="img/matrix.jpg"
+        alt="matrix"
+        width="1300"
+        height="100"
+      />
+      <div class="container">
+        <ul class="nav-bar">
+          <a href="index.html" class="icon-link">
+            <img
+              src="img/Reeves_logo.png"
+              alt="Keanu Reeves"
+              class="keanu_personal glow"
+              height="50"
+              width="50"
+            />
+          </a>
+          <li><a href="news.html" class="blinking">News Feed</a></li>
+          <li><a href="personal.html" class="blinking">Personal</a></li>
+          <li><a href="career.html" class="blinking">Career</a></li>
+          <li><a href="index.html" class="blinking active-page">Executive Summary</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
     <h1>The Career of Keanu Reeves</h1>
     <!-- Intro with basic info on Reeves -->
-    <h2>Intro to Keanu Reeves</h2>
+    <h2 class="textLeft">Intro to Keanu Reeves </h2>
+    <article>
     <p>
       Keanu Reeves is a Canadian movie star that is famous for his many
       blockbuster roles. Staring in the Bill and Ted franchise, the Matrix
@@ -21,63 +54,82 @@
       Hamlet. Keanu Reeves has also directed one movie Man of Chi.
       <!-- List of Skill and talents -->
     </p>
-
+  </article>
+  <img src="img/keanu-reeves-profile.jpg" alt="keanu-reeves-profile">
+  <div class="clear skill-position" >
     <h2>Skills and Talents</h2>
     <ul>
       <li>Acting of course</li>
       <li>Playing bass guitar</li>
       <li>Knowing different fighting styles and martial arts</li>
     </ul>
+  </div>
     <!-- List of different movies -->
-    <h2>List of Movies</h2>
-    <ul>
-      <div>
+    <h2 class="center">List of Movies</h2>
+    
+    
+      <div class="float-right">
         <img
-          src="img/John wick 3.jpeg"
+          src="img/john-wick-3-poster.jpeg"
           alt="John Wick 3 poster"
           width="400"
           height="500"
         />
       </div>
-      <li>John Wick: Chapter 3 - Parabellum</li>
-      <div>
-        <img src="img/Bill and Ted.jpg" alt="Bill and Ted Poster" width="400" />
+
+      <div class="john-wick-text">
+      <h3>John Wick: Chapter 3 - Parabellum</h3>
+    </div>
+      <div class= "clear">
+        <img src="img/bill-and-ted-poster.jpg" alt="Bill and Ted Poster" width="400" />
       </div>
-      <li>Bill and Ted</li>
-      <div>
-        <img src="img/Constantine poster.jpg" alt="Constantine Poster" />
+      <div class=" bill-and-ted-text">
+      <h3 >Bill and Ted</h3>
       </div>
-      <li>Constantine</li>
-      <div>
+      <div class = "clear float-right">
+        <img src="img/constantine-poster.jpg" alt="Constantine Poster" />
+      </div>
+      <div class="constantine-text">
+      <h3 class="clear">Constantine</h3>
+    </div>
+      
         <img
-          src="img/Devils Advocate.jpg"
+          src="img/devils-advocate-poster.jpg"
           alt="Devil Advocate Poster"
           width="400"
         />
-      </div>
-      <li>The Devil's Advocate</li>
-    </ul>
-
-    <h2>Keanu Reeves has Lived in</h2>
-    <ul>
+      <div class=" devil-text float-right clear">
+      <h3>The Devil's Advocate</h3>
+    </div>
+    
+    <h2 class="center">Keanu Reeves has Lived in</h2>
+    <ul class="center">
       <li>Beirut Lebanon</li>
       <li>Toronto Canada</li>
       <li>Los Angeles USA</li>
     </ul>
 
-    <h2>Collaborators</h2>
-    <ul>
+    <h2 class="center">Collaborators</h2>
+    <ul class="center">
       <li>Director: Chad Stahelski</li>
       <li>Directors: Lana Wachowski and Lilly Wachowski</li>
       <li>Actor: Laurence Fishburne</li>
     </ul>
     <!-- List of a few awards Reeves has won -->
-    <h2>List of Awards</h2>
-    <ul>
+    <h2 class="center">List of Awards</h2>
+    <ul class="center">
       <li>Blockbuster Entertainment Awards: Favorite Actor 2000</li>
       <li>Bravo Otto: Best Actor 1994</li>
       <li>Csapnivalo Awards: Best Actor in a Leading Role 1999</li>
     </ul>
+    </div>
+  <footer>
+    <div class="container">
+      <a class="icon" href="https://twitter.com/keanuthings" target="_blank"><span class="icon-twitter"></span></a>
+      <a class="icon" href="https://www.facebook.com/pages/category/Actor/Keanu-Reeves-Official-395800254521088/" target="_blank"><span class="icon-facebook"></span></a>
+      <a class="icon" href="https://www.instagram.com/explore/tags/keanureeves/?hl=en" target="_blank"><span class="icon-instagram"></span></a>
+    </div>
+  </footer>
   </body>
 </html>
 
