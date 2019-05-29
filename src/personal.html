@@ -4,58 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Personal</title>
-    <link rel="stylesheet" href="styles/personal.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web&display=swap" rel="stylesheet"> 
+    <title>Personal | Keanu Reeves</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/personal.css" />
+    <link rel='icon' href='img/favicon.ico' type='image/x-icon'/ >
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <img src="/img/keanu_personal.jpg" alt="Keanu Reeves"  class="keanu_personal"/>
-    <h1>Personal Information</h1>
-    <h2>Date Of Birth:</h2>
-    <p>September 2nd, 1964</p>
-    <h2>Country of Origin:</h2>
-    <p>Beirut, Lebanon</p>
-    <h2>Current Residence:</h2>
-    <p>Hollywood Hills, CA, U.S.</p>
-    <h2>Family:</h2>
-    <ul>
-    <div>
-      <li>
-      <img src="img/sam_reeves_personal.jpg" alt="Sam Reeves" />
-      <p><strong>Father:</strong>Samuel Nowlin Reeves</p>
-    </li>
-    </div>
-    <div>
-      <li>
-      <img src="/img/patricia_taylor_personal.jpg" alt="Patricia Taylor" />
-      <p><strong>Mother:</strong>Patricia Taylor</p>
-    </li>
-    </div>
-    <div>
-      <li>
-      <img src="/img/kim_reeves_personal.jpg" alt="Kim Reeves" />
-      <p><strong>Sister:</strong>Kim Reeves</p>
-    </li>
-    </div>
-    <div>
-      <li>
-      <img src="/img/karina_miller_personal.jpg" alt="Karina Miller" />
-      <p><strong>Half-Sister:</strong>Karina Miller</p>
-    </li>
-    </div>
-  </ul>
+    <nav>
+      <img
+        class="matrix"
+        src="img/matrix.jpg"
+        alt="matrix"
+        width="1300"
+        height="100"
+      />
+      <div class="container">
+        <ul class="nav-bar">
+          <a href="index.html" class="icon-link">
+            <img
+              src="img/Reeves_logo.png"
+              alt="Keanu Reeves"
+              class="keanu_personal glow"
+              height="50"
+              width="50"
+            />
+          </a>
+          <li><a href="news.html" class="blinking">News Feed</a></li>
+          <li><a href="personal.html" class="blinking">Personal</a></li>
+          <li><a href="career.html" class="blinking">Career</a></li>
+          <li><a href="index.html" class="blinking active-page">Executive Summary</a></li>
+        </ul>
+      </div>
+    </nav>
+    <article class="container">
+      <section>
+        <img
+          src="img/keanu_personal.jpg"
+          alt="Keanu Reeves"
+          class="personal_img"
+        />
+        <h1>Personal Information</h1>
+        <h2>Date Of Birth:</h2>
+        <p>September 2nd, 1964</p>
+        <h2>Country of Origin:</h2>
+        <p>Beirut, Lebanon</p>
+        <h2>Current Residence:</h2>
+        <p>Hollywood Hills, CA, U.S.</p>
+      </section>
+      <br />
+      <br />
+      <br />
+      <section>
+        <h2 class="family_h1">Family:</h2>
+        <ul class="family_container">
+          <li>
+            <figure>
+              <img
+                src="img/sam_reeves_personal.jpg"
+                alt="Sam Reeves"
+                class="family_img"
+              />
+              <figcaption>Father: Samuel Reeves</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="img/patricia_taylor_personal.jpg"
+                alt="Sam Reeves"
+                class="family_img"
+              />
+              <figcaption>Mother: Patricia Taylor</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="img/kim_reeves_personal.jpg"
+                alt="Sam Reeves"
+                class="family_img"
+              />
+              <figcaption>Sister: Kim Reeves</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="img/karina_miller_personal.jpg"
+                alt="Sam Reeves"
+                class="family_img"
+              />
+              <figcaption>Half-Sister: Karina Miller</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+    </article>
+    <footer>
+      <div class="container">
+        <a class="icon" href="https://twitter.com/keanuthings" target="_blank"
+          ><span class="icon-twitter"></span
+        ></a>
+        <a
+          class="icon"
+          href="https://www.facebook.com/pages/category/Actor/Keanu-Reeves-Official-395800254521088/"
+          target="_blank"
+          ><span class="icon-facebook"></span
+        ></a>
+        <a
+          class="icon"
+          href="https://www.instagram.com/explore/tags/keanureeves/?hl=en"
+          target="_blank"
+          ><span class="icon-instagram"></span
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
-
-<!--
-
-    Personal
-Birth date with country of origin.
-Birth name (if different than public name)
-Death date if applicable.
-Country of current residence.
-List of immediate family members (for example: spouse, children, siblings, parents) - minimum 3 with images.
-For multiple spouses, show begin/end dates.
-
--->
