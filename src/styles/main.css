@@ -21,6 +21,8 @@ h2 {
   font-weight: bolder;
   text-transform: uppercase;
   margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
 a {
@@ -67,15 +69,17 @@ footer .container {
 /* nav styles */
 
 nav {
-  background-color: #6bbc5d;
+  background-color: #000000;
   margin-bottom: 60px;
 }
  
 .nav-bar {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
 }
 
 .keanu_personal {
@@ -90,9 +94,11 @@ nav {
 
 nav li a {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-weight: lighter;
   display: block;
-  color: #000;
+  color: #6bbc5d;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -102,8 +108,8 @@ nav li a {
 
 
 nav li a:hover {
-  background-color: #000;
-  color: #6bbc5d;
+  /* background-color: #6bbc5d; */
+  color: #000000;
 }
 
 nav img.matrix {
@@ -112,3 +118,26 @@ nav img.matrix {
 }
 
 /* end nav styles */
+
+/* Blinking animation */
+
+.blinking:hover{
+  animation:blinkingText 1.5s infinite, blinkingBackground 1.5s infinite;
+  /* animation:blinkingBackground 2s infinite; */
+}
+
+@keyframes blinkingText{
+  0%{     background-color: #6bbc5d;    }
+  25%{    background-color: #6bbc5d; } 
+  50%{    background-color: #6bbc5d; }
+  75%{    background-color: #000000;  }
+  100%{   background-color: #000000;    }
+}
+
+@keyframes blinkingBackground{
+  0%{     color: #000000;    }
+  25%{    color: #000000; } 
+  50%{    color: #000000; }
+  75%{    color: #497e3f;  }
+  100%{   color: #497e3f;    }
+}
