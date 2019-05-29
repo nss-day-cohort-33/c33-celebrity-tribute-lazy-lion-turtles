@@ -1,6 +1,13 @@
-section {
+.family {
+    width : 100px;
+    height: auto;
     display: flex;
     list-style: none;
+}
+
+.family li {
+    width: 100 px;
+    height: auto;
 }
 
 .keanu_personal {
