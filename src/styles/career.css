@@ -1,0 +1,93 @@
+.column.side {
+  
+  width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+article {
+  float: left;
+}
+p {
+  max-width: 600px;
+  flex: left;
+}
+.clear {
+  clear: both;
+}
+.textLeft {
+  text-align: left;
+}
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+.movie {
+  margin: 10px;
+  font-size: 40px;
+  display: flexbox;
+}
+h3 {
+  
+  font-size: 20px;
+  
+}
+.flexbox {
+  display: flex;
+  justify-content: left;
+}
+.text-right {
+  text-align: right;
+}
+.bottom-margin{
+    margin-bottom: 400px;
+}
+img{
+    margin: 0;
+}
+
+.bill-and-ted-text{
+    position: relative; 
+	top: -300px;
+	left: 800px;
+}
+
+.john-wick-text{
+    position:relative;
+    top: 250px
+}
+
+.column-layout{
+    column-width: 50%
+}
+
+.constantine-text{
+    position: relative;
+    top: -300px
+}
+
+.devil-text{
+    margin-top: 200px
+}
+
+.center{
+    text-align: center;
+}
+
+.skill-position{
+    position: relative;
+    top: 100;
+    
+    color: red;
+    
+}
