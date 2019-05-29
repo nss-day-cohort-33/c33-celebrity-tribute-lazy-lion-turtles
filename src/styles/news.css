@@ -1,0 +1,48 @@
+
+h1 {
+  font-size: 54px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.3em;
+  padding-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  margin: 50px 0;
+}
+
+.column {
+  flex: 0 1 auto;
+  margin: 0 20px 0 0
+}
+
+.rating span:not(.label):before {
+  display: inline-block;
+  vertical-align: middle;
+  content: ' ';
+  background-image: url('../img/gun.svg');
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+}
+
+/* .face-comp {
+  padding-left: 200px;
+} */
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rating {
+  margin-top: 15px;
+}
+
+li {
+  line-height: 1.2em;
+  padding-bottom: 7px;
+}
