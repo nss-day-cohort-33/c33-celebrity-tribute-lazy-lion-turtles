@@ -15,4 +15,14 @@ h1
     margin-right: auto;
     border-radius: 5px;
     width: 40%;
+    float: left;
+}
+
+.floater {
+    float: left;
+    margin-left: 100px;
+}
+
+#face {
+    height: 100vh;
 }

@@ -12,8 +12,11 @@ body {
 }
 
 #face {
-  background: url(../img/keanu-face.png) no-repeat left bottom;
+  background: url(../img/keanu-face.png) no-repeat left 120px;
   background-attachment: fixed;
+  background-size: 15%;
+  height: 100%;
+  margin-bottom: 70px;
 }
 
 .container {
@@ -54,8 +57,13 @@ ul
 
 
 footer {
-  background-color: #000;
+  background-color: rgba(0,0,0,.5);
+  clear: both;
   margin-top: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer .container {
@@ -81,7 +89,6 @@ footer .container {
 /* nav styles */
 
 nav {
-  background-color: #000000;
   margin-bottom: 60px;
 }
  
