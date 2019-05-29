@@ -1,16 +1,20 @@
-.family {
-    width : 100px;
-    height: auto;
-    display: flex;
-    list-style: none;
+
+.personal_img {
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+h1 {
+    color: #6bbc5d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+.flex_container {
+  display: flex;
 }
 
-.family li {
-    width: 100 px;
-    height: auto;
-}
-
-.keanu_personal {
-    width: 600px;
-    height: auto;
-}
+  
