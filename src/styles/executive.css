@@ -1,19 +1,8 @@
 body
 {
-    background-color: black;
-    color: white;
     text-align: center;
 }
 
-li
-{
-    list-style: none;
-}
-
-ul
-{
-    padding: 0px;
-}
 
 .image
 {
