@@ -4,7 +4,9 @@
     float: left;
     margin-right: 50px;
     margin-bottom: 50px;
+
 }
+
 h1 {
     color: #6bbc5d;
     font-weight: bolder;
@@ -12,9 +14,28 @@ h1 {
     margin-top: 20px;
     font-size: 30px;
   }
+  
+  figcaption {
+    color: darkgrey;
+  }
 
-.flex_container {
-  display: flex;
+/* Family container */
+
+.family_h1 {
+  clear: both;
 }
 
-  
+.family_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.family_container li {
+  justify-content: space-between
+}
+
+.family_img {
+  width: 200px;
+}
