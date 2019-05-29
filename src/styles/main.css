@@ -131,6 +131,7 @@ nav img.matrix {
 /* Animations */
 
 /* blinking nav links https://html-online.com/articles/blinking-text-css-animation/*/
+/* animation lasts for two seconds and will repeat infinitely, the active page has a seperate animation for the text shadow  */
 .blinking:hover{
   animation: blinkingText 2s infinite, blinkingBackground 2s infinite;
 }
@@ -167,6 +168,8 @@ nav img.matrix {
 }
 
 /* glowing keanu icon  https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+/* this glow class is for when you hover over the icon it adds a pulsing to the box shadow */
+/* the moz and webkit are for different browsers */
 .glow:hover {
   font-size: 80px;
   color: #fff;
