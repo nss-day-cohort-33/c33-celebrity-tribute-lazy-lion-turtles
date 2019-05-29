@@ -5,7 +5,37 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
 }
+
+h1 {
+  font-family: 'Bangers', cursive;
+}
+
+
+/* footer styles */
+
+
+footer {
+  background-color: #131240;
+  margin-top: 60px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  flex-basis: 40px;
+  padding: 20px 10px;
+  margin: 0;
+}
+
+/* end footer styles */
