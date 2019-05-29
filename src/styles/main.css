@@ -21,6 +21,8 @@ h2 {
   font-weight: bolder;
   text-transform: uppercase;
   margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
 a {
@@ -67,43 +69,56 @@ footer .container {
 /* nav styles */
 
 nav {
-  background-color: #6bbc5d;
+  background-color: #000000;
   margin-bottom: 60px;
 }
  
 .nav-bar {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+}
+
+.active-page
+{
+  color: white;
+  text-shadow: 0 0 3px #6bbc5d, 0 0 4px #6bbc5d, 0 0 5px #497e3f;
+}
+
+.icon-link:hover
+{
+  opacity: 1;
 }
 
 .keanu_personal {
   margin: 20px;
+  border-radius: 100%;
+  vertical-align: middle;
+  box-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #497e3f, 0 0 5px #497e3f, 0 0 6px #497e3f, 0 0 7px #497e3f, 0 0 8px #497e3f;
 }
 
 .nav-bar li {
   float: right;
   line-height: 70px;
   height: 90px;
+  vertical-align: middle;
 }
 
 nav li a {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-weight: lighter;
   display: block;
-  color: #000;
+  color: #6bbc5d;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   transition: all 400ms ease;
   text-transform: uppercase;
-}
-
-
-nav li a:hover {
-  background-color: #000;
-  color: #6bbc5d;
 }
 
 nav img.matrix {
@@ -112,3 +127,64 @@ nav img.matrix {
 }
 
 /* end nav styles */
+
+/* Animations */
+
+/* blinking nav links https://html-online.com/articles/blinking-text-css-animation/*/
+/* animation lasts for two seconds and will repeat infinitely, the active page has a seperate animation for the text shadow  */
+.blinking:hover{
+  animation: blinkingText 2s infinite, blinkingBackground 2s infinite;
+}
+
+.active-page:hover
+{
+  animation: blinkingText 2s infinite, 
+  blinkingBackground 2s infinite,
+  activeShadow 2s infinite;
+}
+
+@keyframes blinkingBackground{
+  0%{     background-color: #6fc560;    }
+  25%{    background-color: #6bbc5d; } 
+  70%{    background-color: #000000; }
+  75%{    background-color: #000000;  }
+  100%{   background-color: #6bbc5d;    }
+}
+
+@keyframes blinkingText{
+  0%{     color: #000000;    }
+  25%{    color: #000000; } 
+  70%{    color: #497e3f; }
+  75%{    color: #497e3f;  }
+  100%{   color: #000000;    }
+}
+
+@keyframes activeShadow{
+  0%{     text-shadow: 0 0 3px #497e3f, 0 0 4px #497e3f, 0 0 5px #497e3f;    }
+  25%{    text-shadow: 0 0 3px #497e3f, 0 0 4px #497e3f, 0 0 5px #497e3f; } 
+  70%{    text-shadow: 0 0 0px #000000; }
+  75%{    text-shadow: 0 0 0px #000000;  }
+  100%{   text-shadow: 0 0 3px #497e3f, 0 0 4px #497e3f, 0 0 5px #497e3f;    }
+}
+
+/* glowing keanu icon  https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+/* this glow class is for when you hover over the icon it adds a pulsing to the box shadow */
+/* the moz and webkit are for different browsers */
+.glow:hover {
+  font-size: 80px;
+  color: #fff;
+  opacity: 100%;
+  text-align: center;
+  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #497e3f, 0 0 5px #497e3f, 0 0 6px #497e3f, 0 0 7px #497e3f, 0 0 8px #497e3f;
+  }
+  to {
+    box-shadow: 0 0 6px #fff, 0 0 7px #6fc560, 0 0 8px #6fc560, 0 0 9px #6fc560, 0 0 10px #6fc560, 0 0 11px #6fc560, 0 0 12px #6fc560;
+  }
+}
