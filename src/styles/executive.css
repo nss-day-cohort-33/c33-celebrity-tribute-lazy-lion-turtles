@@ -15,11 +15,6 @@ ul
     padding: 0px;
 }
 
-div
-{
-    display: flexbox !important;
-}
-
 .image
 {
     display: block;
