@@ -29,14 +29,9 @@ h3 {
   width: 20px;
 }
 
-#face {
-  background: url(../img/keanu-face.png) no-repeat left bottom;
-  background-attachment: fixed;
-}
-
-.face-comp {
+/* .face-comp {
   padding-left: 200px;
-}
+} */
 
 .label {
   font-size: 16px;
