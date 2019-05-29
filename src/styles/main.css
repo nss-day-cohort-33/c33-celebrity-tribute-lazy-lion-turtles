@@ -7,6 +7,8 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
+  background-color: black;
+  color: white;
 }
 
 .container {
@@ -14,16 +16,38 @@ body {
   max-width: 1000px;
 }
 
-h1 {
-  font-family: 'Bangers', cursive;
+h2 {
+  color: #6bbc5d;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
 
+a {
+  color: #6bbc5d;
+  transition: opacity 400ms ease;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .7;
+}
+
+li
+{
+    list-style: none;
+}
+
+ul
+{
+    padding: 0px;
+}
 
 /* footer styles */
 
 
 footer {
-  background-color: #131240;
+  background-color: #000;
   margin-top: 60px;
 }
 
@@ -39,3 +63,52 @@ footer .container {
 }
 
 /* end footer styles */
+
+/* nav styles */
+
+nav {
+  background-color: #6bbc5d;
+  margin-bottom: 60px;
+}
+ 
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.keanu_personal {
+  margin: 20px;
+}
+
+.nav-bar li {
+  float: right;
+  line-height: 70px;
+  height: 90px;
+}
+
+nav li a {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 400ms ease;
+  text-transform: uppercase;
+}
+
+
+nav li a:hover {
+  background-color: #000;
+  color: #6bbc5d;
+}
+
+nav img.matrix {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+/* end nav styles */
