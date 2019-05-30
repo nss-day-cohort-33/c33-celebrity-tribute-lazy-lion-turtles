@@ -17,6 +17,9 @@ h3{
 li {
   font-size: 25px;
 }
+img{
+  vertical-align: middle;
+}
 
 /* shifting elements*/
 .clear {
@@ -30,9 +33,11 @@ li {
 .float-left {
   float: left;
 }
+
 .text-right {
   text-align: right;
 }
+
 .bottom-margin{
     margin-bottom: 400px;
 }
@@ -42,9 +47,11 @@ li {
 
 /* Text placement style  */
 .bill-and-ted-text{
-    position: relative; 
+  position: relative; 
 	top: -300px;
-	left: 800px;
+  left: 800px; 
+  display: inline-block;
+  
 }
 
 .john-wick-text{
@@ -61,6 +68,19 @@ li {
     top: -300px
 }
 
+/* Devil's Advocate style */
+
+.devil-flex{
+  display: flex;
+ justify-content: flex-end;
+ width: 1000px;
+}
+
+.devil-image{
+ align-content: middle;
+ margin-right: 400px
+}
+
 .devil-text{
-    margin-top: 200px
+  margin-top: 250px;
 }
