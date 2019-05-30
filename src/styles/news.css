@@ -24,9 +24,9 @@ h3 {
   vertical-align: middle;
   content: ' ';
   background-image: url('../img/gun.svg');
-  background-size: 20px 20px;
-  height: 20px;
-  width: 20px;
+  background-size: 40px 40px;
+  height: 40px;
+  width: 40px;
 }
 
 /* .face-comp {
@@ -34,7 +34,7 @@ h3 {
 } */
 
 .label {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
 }
 

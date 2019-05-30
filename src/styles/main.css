@@ -12,8 +12,11 @@ body {
 }
 
 #face {
-  background: url(../img/keanu-face.png) no-repeat left bottom;
+  background: url(../img/keanu-face.png) no-repeat left 120px;
   background-attachment: fixed;
+  background-size: 15%;
+  height: 100%;
+  margin-bottom: 70px;
 }
 
 .container {
@@ -22,16 +25,15 @@ body {
 }
 
 h1 {
-  color: #6bbc5d;
-  font-weight: bolder;
-  text-transform: uppercase;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 h2 {
   color: #6bbc5d;
+  font-size: 35px;
   font-weight: bolder;
   text-transform: uppercase;
   margin-top: 20px;
@@ -51,6 +53,7 @@ a:hover {
 
 li
 {
+    font-size: 26px;
     list-style: none;
 }
 
@@ -63,8 +66,13 @@ ul
 
 
 footer {
-  background-color: #000;
+  background-color: rgba(0,0,0,.5);
+  clear: both;
   margin-top: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer .container {
@@ -74,6 +82,7 @@ footer .container {
 
 .icon {
   flex-basis: 40px;
+  font-size: 40px;
   padding: 20px 10px;
   margin: 0;
   transition: all 400ms ease;
@@ -85,12 +94,15 @@ footer .container {
   transform: scale(1.5,1.5);
 }
 
+.footer-comp {
+  margin-bottom: 200px;
+}
+
 /* end footer styles */
 
 /* nav styles */
 
 nav {
-  background-color: #000000;
   margin-bottom: 60px;
 }
  
@@ -138,10 +150,11 @@ nav li a {
   display: block;
   color: #6bbc5d;
   text-align: center;
-  padding: 10px 16px;
+  padding: 0px 16px;
   text-decoration: none;
   transition: all 400ms ease;
   text-transform: uppercase;
+  line-height: 3.5em;
 }
 
 nav img.matrix {
@@ -214,8 +227,8 @@ nav img.matrix {
 @keyframes blinkingText{
   0%{     color: #000000;    }
   25%{    color: #000000; } 
-  70%{    color: #497e3f; }
-  75%{    color: #497e3f;  }
+  70%{    color: #6bbc5d; }
+  75%{    color: #6bbc5d;  }
   100%{   color: #000000;    }
 }
 

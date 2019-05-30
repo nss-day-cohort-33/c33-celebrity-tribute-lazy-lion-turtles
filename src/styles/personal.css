@@ -1,6 +1,6 @@
 
 .personal_img {
-    width: 500px;
+    width: 520px;
     float: left;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -10,6 +10,7 @@
   
   figcaption {
     color: darkgrey;
+    font-size: 20px;
   }
 
 /* Family container */
@@ -32,8 +33,17 @@
 .family_img {
   width: 200px;
   border-radius: 5px;
-  box-shadow: 2px 2px 10px 5px #6bbc5d73;
+  box-shadow: 0px 0px 20px 10px #6bbc5db0;
 }
+.zoom {
+  transition: all 400ms ease;
+}
+
 .zoom:hover {
   transform: scale(2.5)
+}
+
+p {
+  font-size: 26px;
+  line-height: 1.25em;
 }
