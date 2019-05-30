@@ -91,6 +91,10 @@ footer .container {
   transform: scale(1.5,1.5);
 }
 
+.footer-comp {
+  margin-bottom: 100px;
+}
+
 /* end footer styles */
 
 /* nav styles */
