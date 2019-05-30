@@ -30,7 +30,6 @@ h1
 
 #face {
     height: 100vh;
-    float: left
 }
 
 @media screen and (max-width: 851px)
