@@ -21,6 +21,15 @@ body {
   max-width: 1000px;
 }
 
+h1 {
+  color: #6bbc5d;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
 h2 {
   color: #6bbc5d;
   font-weight: bolder;
@@ -94,6 +103,8 @@ nav {
   display: inline-block;
 }
 
+/* the multiple text shadow items is for showing different colors at different levels of blur */
+/* so the closer the glow is to the text the brigher, the two 0s are x and y offset */
 .active-page
 {
   color: white;
@@ -223,7 +234,6 @@ nav img.matrix {
   font-size: 80px;
   color: #fff;
   opacity: 100%;
-  text-align: center;
   -webkit-animation: glow 1.5s ease-in-out infinite alternate;
   -moz-animation: glow 1.5s ease-in-out infinite alternate;
   animation: glow 1.5s ease-in-out infinite alternate;
