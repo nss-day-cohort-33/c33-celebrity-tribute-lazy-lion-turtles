@@ -4,9 +4,9 @@
     float: left;
     margin-right: 50px;
     margin-bottom: 50px;
+    border-radius: 5px;
 
 }
-
   
   figcaption {
     color: darkgrey;
@@ -22,7 +22,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .family_container li {
@@ -31,4 +31,9 @@
 
 .family_img {
   width: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 5px #6bbc5d73;
+}
+.zoom:hover {
+  transform: scale(2.5)
 }
